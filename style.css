@@ -89,6 +89,77 @@ nav li {
   color: #1d6b33;
 }
 
+/* Controllers */
+
+.player1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: rotate(-45deg);
+  animation: player1 3s linear infinite;
+}
+
+@keyframes player1 {
+  0%,
+  100% {
+    top: 50%;
+  }
+  50% {
+    top: 300px;
+  }
+}
+
+.player2 {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  transform: rotate(-45deg);
+  animation: player2 3s linear infinite;
+}
+@keyframes player2 {
+  0%,
+  100% {
+    top: 25%;
+  }
+  50% {
+    top: 150px;
+  }
+}
+
+.player3 {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  transform: rotate(45deg);
+  animation: player3 3s linear infinite;
+}
+@keyframes player3 {
+  0%,
+  100% {
+    top: 50%;
+  }
+  50% {
+    top: 300px;
+  }
+}
+
+.player4 {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  transform: rotate(45deg);
+  animation: player4 3s linear infinite;
+}
+@keyframes player4 {
+  0%,
+  100% {
+    top: 25%;
+  }
+  50% {
+    top: 150px;
+  }
+}
+
 /* Logo / Banner */
 
 #astroBlack {
