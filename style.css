@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #1b1d25, #171921, #262935);
+}
+
+/* Nav Bar */
+nav {
+  min-height: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0 1% 0;
+  color: white;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav li {
+  background: linear-gradient(45deg, #171921, #1c1e28);
+  box-shadow: -5px 5px 11px #12141b, 5px -5px 11px #282b38;
+  border: none;
+  margin: 0 2% 0 2%;
+  padding: 1%;
+  border-radius: 10px;
+  color: #2dc056;
+  text-shadow: 1px 1px 10px #2dc056;
+}
+
+#logo {
+  width: 50%;
+  padding-left: 5%;
+}
+
+#logo img {
+  border-radius: 50px;
+  width: 20%;
+  height: auto;
+  background: linear-gradient(45deg, #171921, #1c1e28);
+  box-shadow: -5px 5px 11px #12141b, 5px -5px 11px #282b38;
+}
+
+/* Central Text */
+
+#info {
+  justify-self: center;
+}
+
+#info h3 {
+  font-size: 3.5rem;
+  color: rgb(207, 207, 207);
+  font-family: 'Merriweather', serif;
+}
+
+#btn {
+  text-align: center;
+  padding: 10% 0 0 0;
+}
+
+#btn .button {
+  border-radius: 10px;
+  padding: 2%;
+  margin: 0 5% 0 0;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Merriweather', serif;
+}
+
+#btn .button:first-child {
+  background: linear-gradient(45deg, #171921, #1c1e28);
+  box-shadow: -5px 5px 11px #12141b, 5px -5px 11px #282b38;
+  border: none;
+  color: #2dc056;
+}
+
+#btn .button:last-child {
+  background: #26f561;
+  box-shadow: -1px 1px 5px #04ff4a, 1px -1px 11px rgb(207, 207, 65);
+  border: 1px solid #1a1c2591;
+  color: #1d6b33;
+}
+
+/* Logo / Banner */
+
+#astroBlack {
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  align-items: center;
+}
+
+#cardAstroBlack {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #171921, #1c1e28);
+  box-shadow: -5px 5px 11px #12141b, 5px -5px 11px #282b38;
+}
+
+#cardAstroBlack {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5%;
+}
+
+#cardAstroBlack img {
+  max-width: 100%;
+  border-radius: 150px;
+  background: #1a1c25;
+  box-shadow: -5px 5px 11px #0c0d12, 5px -5px 11px #282b38;
+}
+
+#cardAstroBlack h1 {
+  justify-self: center;
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: 'Fredoka One', cursive;
+}
+
+#cardAstroBlack span {
+  -webkit-text-stroke: 2px rgb(180, 179, 179);
+  color: #1a1c25;
+}
