@@ -96,17 +96,6 @@ nav li {
   top: 50%;
   left: 20%;
   transform: rotate(-45deg);
-  animation: player1 4s linear infinite;
-}
-
-@keyframes player1 {
-  0%,
-  100% {
-    top: 50%;
-  }
-  50% {
-    top: 300px;
-  }
 }
 
 .player2 {
@@ -114,16 +103,6 @@ nav li {
   top: 25%;
   left: 15%;
   transform: rotate(-45deg);
-  animation: player2 4s linear infinite;
-}
-@keyframes player2 {
-  0%,
-  100% {
-    top: 25%;
-  }
-  50% {
-    top: 150px;
-  }
 }
 
 .player3 {
@@ -131,16 +110,6 @@ nav li {
   top: 50%;
   right: 20%;
   transform: rotate(45deg);
-  animation: player3 4s linear infinite;
-}
-@keyframes player3 {
-  0%,
-  100% {
-    top: 50%;
-  }
-  50% {
-    top: 300px;
-  }
 }
 
 .player4 {
@@ -148,16 +117,6 @@ nav li {
   top: 25%;
   right: 15%;
   transform: rotate(45deg);
-  animation: player4 4s linear infinite;
-}
-@keyframes player4 {
-  0%,
-  100% {
-    top: 25%;
-  }
-  50% {
-    top: 150px;
-  }
 }
 
 /* Logo / Banner */
