@@ -145,7 +145,7 @@ nav li {
 #cardAstroBlack {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  gap: 5%;
+  gap: 1%;
 }
 
 #cardAstroBlack img {
@@ -157,7 +157,7 @@ nav li {
 
 #cardAstroBlack h1 {
   justify-self: center;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #ffffff;
   font-family: 'Fredoka One', cursive;
   font-weight: 400;
@@ -166,4 +166,56 @@ nav li {
 #cardAstroBlack span {
   -webkit-text-stroke: 2px rgb(180, 179, 179);
   color: #1a1c25;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1024px) {
+  .player1 {
+    left: 10%;
+  }
+
+  .player2 {
+    left: 5%;
+  }
+
+  .player3 {
+    right: 10%;
+  }
+
+  .player4 {
+    right: 5%;
+  }
+
+  #cardAstroBlack h1 {
+    font-size: 3.3rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #info h3 {
+    font-size: 2.5rem;
+  }
+  .player1 {
+    left: 10%;
+  }
+
+  .player2 {
+    top: 22%;
+    left: 45%;
+    transform: rotate(0deg);
+    width: 8%;
+  }
+
+  .player3 {
+    right: 10%;
+  }
+
+  .player4 {
+    right: 5%;
+  }
+
+  #cardAstroBlack h1 {
+    font-size: 3.3rem;
+  }
 }
