@@ -5,6 +5,7 @@
 }
 
 body {
+  min-height: 100vh;
   background: linear-gradient(45deg, #1b1d25, #171921, #262935);
 }
 
@@ -193,8 +194,12 @@ nav li {
 }
 
 @media only screen and (max-width: 460px) {
+  #logo img {
+    width: 40%;
+  }
   #info h3 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-left: 2%;
   }
   .player1 {
     left: 10%;
@@ -213,6 +218,18 @@ nav li {
 
   .player4 {
     right: 5%;
+  }
+
+  #cardAstroBlack {
+    margin-top: 5%;
+    width: 95%;
+    grid-template-columns: 1fr;
+    padding: 1% 0;
+  }
+
+  #cardAstroBlack img {
+    justify-self: center;
+    max-width: 35%;
   }
 
   #cardAstroBlack h1 {
