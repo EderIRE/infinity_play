@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+#home {
   min-height: 100vh;
   background: linear-gradient(45deg, #1b1d25, #171921, #262935);
 }
@@ -14,7 +14,7 @@ nav {
   min-height: 10%;
   display: flex;
   justify-content: space-between;
-  margin: 1% 0 1% 0;
+  padding: 1% 0 0 0;
   color: white;
 }
 
@@ -171,6 +171,60 @@ nav li {
 #cardAstroBlack span {
   -webkit-text-stroke: 2px rgb(180, 179, 179);
   color: #1a1c25;
+}
+
+/* Cards Sections */
+
+#cardGames {
+  background: #efeeee;
+  min-height: 100vh;
+}
+
+.titleSection {
+  margin: auto;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.titleSection h3 {
+  width: 80%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #f1efef;
+  box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
+}
+
+.gameCards {
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 5%;
+}
+
+.cardInfo {
+  display: grid;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+}
+
+.cardInfo img {
+  width: 100%;
+  height: 90%;
+}
+
+.cardInfo p {
+  align-self: end;
+  text-align: center;
+  font-size: 2rem;
 }
 
 /* Responsive */
