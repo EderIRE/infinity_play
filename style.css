@@ -135,22 +135,18 @@ nav li {
 }
 
 #cardAstroBlack {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1%;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   width: 60%;
   height: auto;
   padding: 1rem;
+  margin-bottom: 1% 0 1% 0;
   border-radius: 50px;
   background: linear-gradient(45deg, #171921, #1c1e28);
   box-shadow: -5px 5px 11px #12141b, 5px -5px 11px #282b38;
-}
-
-#cardAstroBlack {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 1%;
 }
 
 #cardAstroBlack img {
@@ -180,13 +176,26 @@ nav li {
   min-height: 100vh;
 }
 
+#titleMain {
+  padding: 1%;
+}
+
 .titleSection {
   margin: auto;
   width: 20%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  border-radius: 10px;
+  background: #f1efef;
+  box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
+  font-family: 'Fredoka One', cursive;
+  font-weight: 400;
+}
+
+.titleSection img {
+  width: 30%;
 }
 
 .titleSection h3 {
@@ -195,9 +204,6 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  background: #f1efef;
-  box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
 }
 
 .gameCards {
@@ -213,7 +219,7 @@ nav li {
   border-radius: 20px;
   overflow: hidden;
   background: #ffffff;
-  box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+  box-shadow: 10px 10px 20px #ffffff, -10px -10px 20px #efeeee;
 }
 
 .cardInfo img {
@@ -248,6 +254,10 @@ nav li {
 
   #cardAstroBlack h1 {
     font-size: 3.3rem;
+  }
+
+  #titleMain {
+    padding: 3%;
   }
 }
 
@@ -293,5 +303,9 @@ nav li {
   }
   #cardAstroBlack h1 {
     font-size: 2rem;
+  }
+
+  .titleSection {
+    width: 60%;
   }
 }
