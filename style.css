@@ -281,6 +281,10 @@ nav li {
   #cardAstroBlack h1 {
     font-size: 3.3rem;
   }
+
+  .titleSection {
+    width: 40%;
+  }
 }
 
 @media only screen and (max-width: 360px) {
