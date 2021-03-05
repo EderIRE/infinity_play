@@ -187,15 +187,19 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  background: #f1efef;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #171921, #1c1e28);
   box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
   font-family: 'Fredoka One', cursive;
   font-weight: 400;
+  padding: 1%;
 }
 
 .titleSection img {
   width: 30%;
+  border-radius: 50px;
+  background: #1a1c25;
+  box-shadow: -5px 5px 11px #0c0d12, 5px -5px 11px #282b38;
 }
 
 .titleSection h3 {
@@ -204,6 +208,7 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .gameCards {
@@ -218,7 +223,7 @@ nav li {
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
-  background: #ffffff;
+  background: #efeeee;
   box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
 }
 
@@ -259,6 +264,11 @@ nav li {
   #titleMain {
     padding: 3%;
   }
+
+  .titleSection {
+    width: 30%;
+    padding: 3%;
+  }
 }
 
 @media only screen and (max-width: 460px) {
@@ -293,7 +303,7 @@ nav li {
   }
 
   .titleSection {
-    width: 40%;
+    width: 50%;
   }
 }
 
@@ -307,5 +317,6 @@ nav li {
 
   .titleSection {
     width: 60%;
+    padding: 5%;
   }
 }
