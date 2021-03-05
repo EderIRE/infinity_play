@@ -248,7 +248,7 @@ nav li {
 }
 
 #devicesMain p:last-child {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 #devicesIMG {
@@ -473,12 +473,17 @@ nav li {
   }
 
   #about #titleMain .titleSection {
-    margin-top: 20%;
+    margin-top: 8%;
     width: 80%;
     padding: 5%;
   }
 
   #devicesIMG {
     padding: 15% 0 1% 0;
+  }
+
+  #devicesMain p:last-child {
+    font-size: 0.5rem;
+    padding: 10%;
   }
 }
