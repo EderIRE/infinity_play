@@ -517,6 +517,10 @@ nav .mainMenu .closeMenu,
   #social img {
     padding: 0 1%;
   }
+
+  #devicesMain p:first-child {
+    padding: 5%;
+  }
 }
 
 @media only screen and (max-width: 420px) {
