@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #home {
   min-height: 100vh;
   background: linear-gradient(45deg, #1b1d25, #171921, #262935);

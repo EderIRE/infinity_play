@@ -1,6 +1,7 @@
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
+const links = document.querySelectorAll('.secIcon');
 
 function show() {
   mainMenu.style.display = 'flex';
@@ -13,3 +14,4 @@ function close() {
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
+links.forEach((icons) => icons.addEventListener('click', close));
