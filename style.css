@@ -37,6 +37,22 @@ nav li {
   text-shadow: 1px 1px 10px #2dc056;
 }
 
+nav .openMenu {
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
+  margin-right: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+nav .mainMenu .closeMenu,
+.icons img {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
 #logo {
   width: 50%;
   padding-left: 5%;
@@ -398,6 +414,37 @@ nav li {
 }
 
 @media only screen and (max-width: 460px) {
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1b1d25, #171921, #262935);
+    transition: top 1s ease;
+    display: none;
+  }
+
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .openMenu {
+    display: block;
+  }
+
+  .icons img {
+    display: inline-block;
+    padding: 12px;
+  }
+
   #logo img {
     width: 40%;
   }
