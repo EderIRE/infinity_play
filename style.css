@@ -86,6 +86,14 @@ nav .mainMenu .closeMenu,
   font-family: 'Merriweather', serif;
 }
 
+#info h5 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2%;
+  color: rgb(207, 207, 207);
+  font-family: 'Merriweather', serif;
+}
+
 #btn {
   text-align: center;
   padding: 10% 0 0 0;
@@ -465,6 +473,11 @@ nav .mainMenu .closeMenu,
     font-size: 3rem;
     margin-left: 2%;
   }
+
+  #info h5 {
+    font-size: 1.5rem;
+    padding: 4%;
+  }
   .player1,
   .player2,
   .player3,
@@ -521,11 +534,17 @@ nav .mainMenu .closeMenu,
   #devicesMain p:first-child {
     padding: 5%;
   }
+
+  #devicesMain p:last-child {
+    font-size: 0.5rem;
+    padding: 10%;
+  }
 }
 
 @media only screen and (max-width: 420px) {
   #info h3 {
-    font-size: 2.5rem;
+    margin-top: 3%;
+    font-size: 2.8rem;
   }
   #cardAstroBlack h1 {
     font-size: 2rem;
@@ -544,10 +563,5 @@ nav .mainMenu .closeMenu,
 
   #devicesIMG {
     padding: 15% 0 1% 0;
-  }
-
-  #devicesMain p:last-child {
-    font-size: 0.5rem;
-    padding: 10%;
   }
 }
