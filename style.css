@@ -513,6 +513,10 @@ nav .mainMenu .closeMenu,
     width: 50%;
   }
 
+  .titleSection h3 {
+    font-size: 2rem;
+  }
+
   .gameCards {
     justify-content: center;
     padding-bottom: 50%;
@@ -520,6 +524,10 @@ nav .mainMenu .closeMenu,
 
   #about .titleSection {
     width: 70%;
+  }
+
+  #about .titleSection h3 {
+    font-size: 2rem;
   }
 
   #about #titleMain p {
