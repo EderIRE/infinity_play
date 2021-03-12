@@ -111,6 +111,10 @@ nav .mainMenu .closeMenu,
   color: #1d6b33;
 }
 
+#btn .button:hover {
+  background: #22ca51;
+}
+
 /* Controllers */
 
 .player1 {
