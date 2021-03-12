@@ -39,6 +39,10 @@ nav li {
   border-radius: 10px;
 }
 
+nav li:hover {
+  border: 1px solid #2dc056;
+}
+
 nav li a {
   color: #2dc056;
   text-decoration: none;
@@ -363,6 +367,12 @@ nav .mainMenu .closeMenu,
   overflow: hidden;
   background: #efeeee;
   box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.cardInfo:hover {
+  transform: scale(1.1);
 }
 
 .cardInfo img {
