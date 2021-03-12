@@ -76,6 +76,11 @@ nav .mainMenu .closeMenu,
   height: auto;
   background: linear-gradient(45deg, #171921, #1c1e28);
   box-shadow: -5px 5px 11px #12141b, 5px -5px 11px #282b38;
+  transition: all 0.5s ease-in-out;
+}
+
+#logo img:hover {
+  transform: scale(1.1);
 }
 
 /* Central Text */
@@ -455,6 +460,15 @@ nav .mainMenu .closeMenu,
   }
 }
 
+@media only screen and (max-width: 760px) {
+  .player1,
+  .player2,
+  .player3,
+  .player4 {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 460px) {
   nav .mainMenu {
     height: 100vh;
@@ -503,12 +517,6 @@ nav .mainMenu .closeMenu,
   #info h5 {
     font-size: 1.5rem;
     padding: 4%;
-  }
-  .player1,
-  .player2,
-  .player3,
-  .player4 {
-    display: none;
   }
 
   #cardAstroBlack {
