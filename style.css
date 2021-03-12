@@ -523,7 +523,7 @@ nav .mainMenu .closeMenu,
   }
 
   #about .titleSection {
-    width: 70%;
+    width: 50%;
   }
 
   #about .titleSection h3 {
@@ -575,7 +575,7 @@ nav .mainMenu .closeMenu,
 
   #about #titleMain .titleSection {
     margin-top: 8%;
-    width: 80%;
+    width: 60%;
     padding: 5%;
   }
 
