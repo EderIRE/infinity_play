@@ -470,6 +470,10 @@ nav .mainMenu .closeMenu,
   .player4 {
     display: none;
   }
+
+  #social {
+    padding-bottom: 3%;
+  }
 }
 
 @media only screen and (max-width: 460px) {
