@@ -51,3 +51,5 @@ anime({
   autoplay: true,
   easing: 'easeInOutSine',
 });
+
+AOS.init();

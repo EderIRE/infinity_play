@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./astro_black.svg" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
@@ -65,6 +66,7 @@
     </section>
 
     <!-- Games Section -->
+
     <img id="wave1" src="./devicesIMG/wave1.svg" />
 
     <section id="cardGames">
@@ -76,18 +78,20 @@
         <p>Get Infinity games every day.</p>
       </div>
 
-      <div class="gameCards">
-        <div class="cardInfo">
-          <img src="./cardsIMG/gtav.png" />
-          <p>GTA V</p>
-        </div>
-        <div class="cardInfo">
-          <img src="./cardsIMG/fortnite.jpg" />
-          <p>Fortnite</p>
-        </div>
-        <div class="cardInfo">
-          <img src="./cardsIMG/cyberpunk2077.jpg" />
-          <p>Cyberpunk 2077</p>
+      <div data-aos="zoom-in" data-aos-offset="300" data-aos-anchor-placement="bottom-bottom">
+        <div class="gameCards">
+          <div class="cardInfo">
+            <img src="./cardsIMG/gtav.png" />
+            <p>GTA V</p>
+          </div>
+          <div class="cardInfo">
+            <img src="./cardsIMG/fortnite.jpg" />
+            <p>Fortnite</p>
+          </div>
+          <div class="cardInfo">
+            <img src="./cardsIMG/cyberpunk2077.jpg" />
+            <p>Cyberpunk 2077</p>
+          </div>
         </div>
       </div>
     </section>
@@ -104,37 +108,42 @@
         <p>Infinity Play for less.</p>
 
         <div class="priceSection">
-          <div class="cardPriceMain">
-            <div class="priceHead">
-              <img src="./astro_black.svg" alt="controller" />
-              <h3>InfinityBasic</h3>
-            </div>
-            <div class="cardPrice">
-              <p>Free</p>
-              <ul>
-                <li>Free access</li>
-                <li>3 free games trial every day.</li>
-                <li>1080p Resolution</li>
-                <li>1 device at a time</li>
-                <li>Limited discounts</li>
-              </ul>
+          <div data-aos="fade-right" data-aos-offset="800" data-aos-easing="ease-in-sine">
+            <div class="cardPriceMain">
+              <div class="priceHead">
+                <img src="./astro_black.svg" alt="controller" />
+                <h3>InfinityBasic</h3>
+              </div>
+
+              <div class="cardPrice">
+                <p>Free</p>
+                <ul>
+                  <li>Free access</li>
+                  <li>3 free games trial every day.</li>
+                  <li>1080p Resolution</li>
+                  <li>1 device at a time</li>
+                  <li>Limited discounts</li>
+                </ul>
+              </div>
             </div>
           </div>
 
-          <div class="cardPriceMain">
-            <div class="priceHead">
-              <img src="./astro_black.svg" alt="controller" />
-              <h3>InfinityPRO</h3>
-            </div>
-            <div class="cardPrice">
-              <p>€ 9,99/month</p>
-              <ul>
-                <li>3 months free trial</li>
-                <li>Infinity hours of play</li>
-                <li>Infinity devices</li>
-                <li>4k Resolution</li>
-                <li>Infinity discounts</li>
-              </ul>
+          <div data-aos="fade-left" data-aos-offset="800" data-aos-easing="ease-in-sine">
+            <div class="cardPriceMain">
+              <div class="priceHead">
+                <img src="./astro_black.svg" alt="controller" />
+                <h3>InfinityPRO</h3>
+              </div>
+              <div class="cardPrice">
+                <p>€ 9,99/month</p>
+                <ul>
+                  <li>3 months free trial</li>
+                  <li>Infinity hours of play</li>
+                  <li>Infinity devices</li>
+                  <li>4k Resolution</li>
+                  <li>Infinity discounts</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -162,6 +171,7 @@
         <img src="./icons/Vector-6.svg" />
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </body>
