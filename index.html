@@ -6,6 +6,7 @@
     <link rel="icon" href="./astro_black.svg" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
       rel="stylesheet"
@@ -77,17 +78,18 @@
         <p>Get Infinity games every day.</p>
       </div>
 
-      <div data-aos="zoom-in" data-aos-offset="300" data-aos-anchor-placement="bottom-bottom">
+      
         <div class="gameCards">
-          <div class="cardInfo">
+          
+          <div class="cardInfo" data-aos="zoom-in">
             <img src="./cardsIMG/gtav.png" />
             <p>GTA V</p>
           </div>
-          <div class="cardInfo">
+          <div class="cardInfo" data-aos="zoom-in">
             <img src="./cardsIMG/fortnite.jpg" />
             <p>Fortnite</p>
           </div>
-          <div class="cardInfo">
+          <div class="cardInfo" data-aos="zoom-in">
             <img src="./cardsIMG/cyberpunk2077.jpg" />
             <p>Cyberpunk 2077</p>
           </div>
@@ -107,7 +109,7 @@
         <p>Infinity Play for less.</p>
 
         <div class="priceSection">
-          <div data-aos="fade-right" data-aos-offset="800" data-aos-easing="ease-in-sine">
+          <div data-aos="zoom-in">
             <div class="cardPriceMain">
               <div class="priceHead">
                 <img src="./astro_black.svg" alt="controller" />
@@ -127,7 +129,7 @@
             </div>
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="800" data-aos-easing="ease-in-sine">
+          <div data-aos="zoom-in">
             <div class="cardPriceMain">
               <div class="priceHead">
                 <img src="./astro_black.svg" alt="controller" />
@@ -172,5 +174,12 @@
     </footer>
 
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
   </body>
 </html>
