@@ -160,7 +160,7 @@ nav .mainMenu .closeMenu,
 
 /* Logo / Banner */
 
-#astroBlack {
+#Home {
   min-height: 90vh;
   display: grid;
   grid-template-columns: 1fr;
@@ -315,7 +315,7 @@ nav .mainMenu .closeMenu,
 
 /* Cards Sections */
 
-#cardGames {
+#Games {
   background: #efeeee;
   min-height: 100vh;
 }
@@ -556,15 +556,15 @@ nav .mainMenu .closeMenu,
     padding-bottom: 50%;
   }
 
-  #about .titleSection {
+  #Price .titleSection {
     width: 50%;
   }
 
-  #about .titleSection h3 {
+  #Price .titleSection h3 {
     font-size: 2rem;
   }
 
-  #about #titleMain p {
+  #Price #titleMain p {
     padding-top: 10%;
     margin-bottom: 2%;
   }
@@ -607,7 +607,7 @@ nav .mainMenu .closeMenu,
     padding: 5%;
   }
 
-  #about #titleMain .titleSection {
+  #Price #titleMain .titleSection {
     margin-top: 8%;
     width: 60%;
     padding: 5%;
