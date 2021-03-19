@@ -273,11 +273,6 @@ nav .mainMenu .closeMenu,
   background: #efeeee;
   box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.cardInfo:hover {
-  transform: scale(1.1);
 }
 
 .cardInfo img {
@@ -413,7 +408,7 @@ nav .mainMenu .closeMenu,
   background: #1a1c25;
 }
 
-#social img {
+#social a {
   padding: 0 0.5%;
 }
 
@@ -579,7 +574,7 @@ nav .mainMenu .closeMenu,
     padding-bottom: 10%;
   }
 
-  #social img {
+  #social a {
     padding: 0 1%;
   }
 
