@@ -302,7 +302,7 @@ nav .mainMenu .closeMenu,
   box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
   font-family: 'Fredoka One', cursive;
   font-weight: 400;
-  padding: 5%;
+  padding: 3%;
 }
 
 .priceHead img {
@@ -456,9 +456,13 @@ nav .mainMenu .closeMenu,
   .gameCards {
     padding-bottom: 10%;
   }
+
+  .priceHead {
+    padding: 5% 10% 5% 10%;
+  }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
   .player1,
   .player2,
   .player3,
@@ -471,7 +475,8 @@ nav .mainMenu .closeMenu,
   }
 
   .priceHead {
-    width: 80%;
+    width: 70%;
+    padding: 5%;
   }
 
   .cardPrice ul {
@@ -619,9 +624,13 @@ nav .mainMenu .closeMenu,
   #devicesIMG {
     padding: 15% 0 1% 0;
   }
+
+  .priceHead {
+    width: 90%;
+  }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 320px) {
   .cardPriceMain {
     width: 100%;
   }
