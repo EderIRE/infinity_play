@@ -296,7 +296,7 @@ nav .mainMenu .closeMenu,
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   border-radius: 20px;
   background: linear-gradient(45deg, #171921, #1c1e28);
   box-shadow: 5px 5px 10px #cbcaca, -5px -5px 10px #ffffff;
@@ -358,7 +358,9 @@ nav .mainMenu .closeMenu,
 
 .cardPrice ul {
   margin-left: 20%;
-  line-height: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #devicesMain {
@@ -460,6 +462,11 @@ nav .mainMenu .closeMenu,
   .priceHead {
     padding: 5% 10% 5% 10%;
   }
+
+  .cardPrice ul {
+    margin-left: 10%;
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -481,6 +488,7 @@ nav .mainMenu .closeMenu,
 
   .cardPrice ul {
     padding-bottom: 3%;
+    font-size: 1.1rem;
   }
 }
 
@@ -578,7 +586,7 @@ nav .mainMenu .closeMenu,
   }
 
   .priceSection {
-    margin: 5%;
+    margin-bottom: 10%;
     grid-template-columns: 1fr;
     gap: 5%;
   }
@@ -598,6 +606,10 @@ nav .mainMenu .closeMenu,
   #devicesMain p:last-child {
     font-size: 0.5rem;
     padding: 10%;
+  }
+
+  .cardPriceMain {
+    width: 100%;
   }
 }
 
