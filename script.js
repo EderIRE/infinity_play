@@ -13,11 +13,6 @@ function close() {
   mainMenu.style.top = '-200%';
 }
 
-function loading() {
-  loader.parentElement.removeChild(loader);
-}
-
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
-loader.addEventListener('load', loading);
 links.forEach((icons) => icons.addEventListener('click', close));
